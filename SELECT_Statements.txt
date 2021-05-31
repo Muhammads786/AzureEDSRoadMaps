@@ -1,0 +1,13 @@
+1. Simplest query to get all data from Oracle Table
+SELECT * FROM EMPLOYEES;
+2. Query to Select specific columns from Oracle Table
+SELECT EMPLOYEE_ID,FIRST_NAME,LAST_NAME FROM EMPLOYEES;
+3. Query to get Employee information from Specific Department
+SELECT EMPLOYEE_ID,FIRST_NAME,LAST_NAME
+FROM EMPLOYEES
+WHERE DEPARTMENT_ID=90
+4. Query to get Employee information from Specific Department sorted by First Name
+SELECT EMPLOYEE_ID,FIRST_NAME,LAST_NAME
+FROM EMPLOYEES
+WHERE DEPARTMENT_ID=90
+ORDER BY FIRST_NAME;
